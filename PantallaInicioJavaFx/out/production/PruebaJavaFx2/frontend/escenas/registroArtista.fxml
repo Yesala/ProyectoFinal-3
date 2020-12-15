@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="664.0" style="-fx-background-color: #a8dcd2#a8dcd2;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontend.controllers.ControllerRegArtista">
+   <children>
+      <Text fill="WHITE" layoutX="443.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SINGwith!">
+         <font>
+            <Font name="Futura Medium" size="44.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registro de Artista">
+         <font>
+            <Font name="Franklin Gothic Book" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nombreArtista" layoutX="33.0" layoutY="104.0" promptText="Nombre Artista" />
+      <Text layoutX="33.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre del artista" />
+      <TextField fx:id="apellido1Artist" layoutX="33.0" layoutY="163.0" promptText="Apellido 1 Artista" />
+      <TextField fx:id="apellido2Artist" layoutX="33.0" layoutY="222.0" promptText="Apellido 2 Artista" />
+      <TextField fx:id="alias" layoutX="33.0" layoutY="284.0" promptText="&quot;Alias&quot;" />
+      <TextField fx:id="paisNacimiento" layoutX="33.0" layoutY="341.0" promptText="Pais de Nacimiento" />
+      <DatePicker fx:id="fechaNacimiento" layoutX="246.0" layoutY="104.0" promptText="Fecha de Nacimiento" />
+      <DatePicker fx:id="fechaDefuncion" layoutX="246.0" layoutY="163.0" promptText="Fecha de Defuncion" />
+      <TextField fx:id="edad" layoutX="246.0" layoutY="222.0" promptText="Edad del artista" />
+      <TextField fx:id="genero" layoutX="246.0" layoutY="284.0" promptText="Genero musical" />
+      <TextField fx:id="referencias" layoutX="246.0" layoutY="341.0" promptText="Referecias-Carrera" />
+      <Text layoutX="33.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Primer apellido" />
+      <Text layoutX="33.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Segundo apellido" />
+      <Text layoutX="33.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alias-Nombre artístico" />
+      <Text layoutX="34.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="País de Nacimiento" />
+      <Text layoutX="248.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha de nacimiento" />
+      <Text layoutX="248.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha de defunción" />
+      <Text layoutX="246.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edad" />
+      <Text layoutX="246.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Genero(s) del artista" />
+      <Text layoutX="248.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Referencias" />
+      <Button fx:id="registroArtista" layoutX="520.0" layoutY="341.0" mnemonicParsing="false" onAction="#registroArtista" text="Registrar" />
+   </children>
+</AnchorPane>

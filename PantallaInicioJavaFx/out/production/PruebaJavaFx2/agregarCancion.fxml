@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="343.0" prefWidth="269.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontend.controllers.ControllerCancion">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="199.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/img/Guitarra.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nombreCancion" layoutX="34.0" layoutY="132.0" />
+      <Text fill="WHITE" layoutX="34.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Agregar Canción">
+         <font>
+            <Font name="Avenir Book" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="34.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Canción">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nombreArtista" layoutX="34.0" layoutY="190.0" />
+      <Text fill="WHITE" layoutX="34.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Artista">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+      </Text>
+      <Button fx:id="agregarCancion" layoutX="120.0" layoutY="234.0" mnemonicParsing="false" onAction="#agregarCancion" prefHeight="27.0" prefWidth="75.0" style="-fx-background-color: #e8de0e #e8de0e;" text="+ Agregar">
+         <font>
+            <Font name="Avenir Book" size="12.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="195.0" layoutY="317.0" onMouseClicked="#regresarHome" strokeType="OUTSIDE" strokeWidth="0.0" text="Regresar">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

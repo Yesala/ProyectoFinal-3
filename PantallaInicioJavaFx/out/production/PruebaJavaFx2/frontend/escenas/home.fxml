@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="395.0" prefWidth="664.0" style="-fx-background-color: #424a47  #424a47;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontend.controllers.ControllerHome">
+   <children>
+      <AnchorPane prefHeight="395.0" prefWidth="200.0" style="-fx-background-color: #4e5d5f  #4e5d5f;">
+         <children>
+            <ImageView fitHeight="24.0" fitWidth="35.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </ImageView>
+            <Text fx:id="Library" fill="WHITE" layoutX="19.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Biblioteca">
+               <font>
+                  <Font name="Avenir Book" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+            <Text fx:id="crearLista" fill="WHITE" layoutX="17.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+ Crear lista" wrappingWidth="134.8896484375">
+               <font>
+                  <Font name="Avenir Book" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+            <Line endX="82.0" layoutX="109.0" layoutY="262.0" startX="-100.0" stroke="WHITE" />
+            <Text fx:id="Playislit" fill="WHITE" layoutX="20.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Playlists">
+               <font>
+                  <Font name="Avenir Book" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+            <Text fx:id="crearAlbum" fill="WHITE" layoutX="18.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+ Crear album" wrappingWidth="134.8896484375">
+               <font>
+                  <Font name="Avenir Book" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+            <Text fx:id="Library1" fill="WHITE" layoutX="19.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tienda">
+               <font>
+                  <Font name="Avenir Book" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+            <Text fx:id="listaCanciones" fill="WHITE" layoutX="19.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="++ Canciones" wrappingWidth="134.8896484375">
+               <font>
+                  <Font name="Avenir Book" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+            <Text fx:id="listaAlbums" fill="WHITE" layoutX="19.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="++ Albums" wrappingWidth="134.8896484375">
+               <font>
+                  <Font name="Avenir Book" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+            <Text fx:id="tiendaCanciones" fill="WHITE" layoutX="19.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="++ Tienda SINGwith!" wrappingWidth="134.8896484375">
+               <font>
+                  <Font name="Avenir Book" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+            <Text fx:id="verListas" fill="WHITE" layoutX="17.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+ Ver listas" wrappingWidth="134.8896484375">
+               <font>
+                  <Font name="Avenir Book" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+            <Text fx:id="agregarCancion" fill="WHITE" layoutX="18.0" layoutY="290.0" onMouseClicked="#agregarCancion" strokeType="OUTSIDE" strokeWidth="0.0" text="+ Añadir canción" wrappingWidth="134.8896484375">
+               <font>
+                  <Font name="Avenir Book" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+            <Text fx:id="listaArtistas" fill="WHITE" layoutX="19.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="++ Artistas" wrappingWidth="134.8896484375">
+               <font>
+                  <Font name="Avenir Book" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+            <Text fx:id="agregarArtista" fill="WHITE" layoutX="18.0" layoutY="332.0" onMouseClicked="#agregarArtista" strokeType="OUTSIDE" strokeWidth="0.0" text="+ Agregar Artista" wrappingWidth="134.8896484375">
+               <font>
+                  <Font name="Avenir Book" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="200.0" prefHeight="74.0" prefWidth="464.0" style="-fx-background-color: #5d696b  #5d696b;">
+         <children>
+            <TextField layoutX="22.0" layoutY="25.0" promptText="Buscar...">
+               <font>
+                  <Font name="Avenir Book" size="13.0" />
+               </font>
+            </TextField>
+            <Text fill="#f8820d" layoutX="289.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SINGwith!...">
+               <font>
+                  <Font name="Futura Medium" size="29.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+      <AnchorPane fx:id="panelCuenta" layoutX="703.0" layoutY="47.0" prefHeight="74.0" prefWidth="127.0" style="-fx-background-color: #17d198;" visible="false">
+         <children>
+            <Text fill="WHITE" layoutX="14.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cuenta" underline="true">
+               <font>
+                  <Font name="Roboto" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+            <Text fill="WHITE" layoutX="14.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cerrar sesion" underline="true">
+               <font>
+                  <Font name="Roboto" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text fx:id="agregarCompositor" fill="WHITE" layoutX="18.0" layoutY="355.0" onMouseClicked="#agregarCompositor" strokeType="OUTSIDE" strokeWidth="0.0" text="+ Agregar Compositor" wrappingWidth="134.8896484375">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Text>
+      <Text fx:id="agregarGenero" fill="WHITE" layoutX="18.0" layoutY="377.0" onMouseClicked="#agregarGenero" strokeType="OUTSIDE" strokeWidth="0.0" text="+ Agregar Género" wrappingWidth="134.8896484375">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Text>
+   </children>
+</AnchorPane>

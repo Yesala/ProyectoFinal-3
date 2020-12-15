@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="664.0" scaleShape="false" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontend.controllers.ControllerLogin">
+   <children>
+      <ImageView fitHeight="365.0" fitWidth="679.0" layoutX="-14.0" layoutY="35.0" pickOnBounds="true">
+         <image>
+            <Image url="@../recursos/img/Musica_portada.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="372.0" prefHeight="400.0" prefWidth="268.0" style="-fx-background-color: black;">
+         <children>
+            <TextField fx:id="usuarionombre" layoutX="59.0" layoutY="169.0" promptText="nombreusuario">
+               <font>
+                  <Font name="Franklin Gothic Book" size="13.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="contrasennausuario" layoutX="59.0" layoutY="216.0" promptText="contrasenna">
+               <font>
+                  <Font name="Franklin Gothic Book" size="13.0" />
+               </font>
+            </TextField>
+            <Button layoutX="94.0" layoutY="265.0" mnemonicParsing="false" onAction="#iniciarSesion" style="-fx-background-color: #ab0530  #ab0530;" text="Iniciar Sesion" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Book" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="99.0" layoutY="348.0" mnemonicParsing="false" onAction="#registrarse" style="-fx-background-color: #ffae00  #ffae00;" text="Registrarse">
+               <font>
+                  <Font name="Franklin Gothic Book" size="12.0" />
+               </font>
+            </Button>
+            <Text fill="WHITE" layoutX="21.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SINGwith!" wrappingWidth="230.0">
+               <font>
+                  <Font name="Futura Medium" size="44.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="88.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tu app de música..." textAlignment="CENTER" wrappingWidth="175.22900390625">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Text>
+            <Label fx:id="MostrarErrorUsuario" layoutX="82.0" layoutY="306.0" prefHeight="17.0" prefWidth="134.0" textFill="WHITE">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
